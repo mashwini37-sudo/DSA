@@ -1,0 +1,8 @@
+def largest(arr):
+    ans = arr[0]
+    for num in arr:
+        if num > ans:
+            ans = num
+    return ans
+
+print(largest([2, 5, 1, 3, 0])) 
